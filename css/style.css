@@ -256,6 +256,104 @@ body {
   width: 152px;
 }
 
+.mailing-list {
+  padding: 100px 0;
+  background-color: #F7F2EA;
+  background-image: url(../images/mailing-list/tea.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.mailing-list__title {
+  text-align-last: left;
+  margin-bottom: 50px;
+}
+
+.mailing-list__inner {
+  display: flex;
+  gap: 60px 40px;
+}
+
+.mailing-list__text {
+  line-height: 1.5;
+  flex-basis: 580px;
+}
+
+.mailing-list__form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 580px;
+}
+
+.mailing-list__email {
+  border: none;
+  border-bottom: 1px solid #B8B58B;
+  background-color: transparent;
+  padding: 3px 15px;
+  width: 434px;
+  margin-right: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #151618;
+}
+
+.mailing-list__email::placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #B8B58B;
+}
+
+.mailing-list__btn {
+  background-color: #ffffff;
+  border: 1px solid #151618;
+  font-family: 'Open Sans', sans-serif;
+  padding: 12px 41px;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.chechbox__text {
+  font-size: 13px;
+  padding-left: 20px;
+}
+
+.mailing-list__label {
+  margin-top: 16px;
+}
+
+.checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.chechbox-style {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #151618;
+  margin-top: 5px;
+}
+
+.checkbox:checked + .chechbox-style::before{
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: #151618;
+  top: 1px;
+  left: 1px;
+}
 
 @media (max-width: 1000px) {
   .user-actions__item-search {
