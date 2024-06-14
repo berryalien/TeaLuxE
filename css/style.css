@@ -416,7 +416,25 @@ body {
     display: none;
   }
 
+  .main-blog {
+    padding: 120px 0;
+  }
 
+  .main-blog__list {
+    gap: 67px 20px;
+  }
+
+  .main-blog__item {
+    flex-basis: 460px;
+  }
+
+  .main-blog__item-img {
+    min-width: 230px;
+  }
+
+  .main-blog__link {
+    margin-top: 60px;
+  }
 }
 
 @media (max-width: 860px) {
