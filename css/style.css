@@ -454,6 +454,13 @@ body {
     flex-basis: 780px;
   }
 
+  .prioritise {
+    padding: 120px 0;
+  }
+
+  .prioritise__list {
+    gap: 30px 210px;
+  }
 
 }
 
