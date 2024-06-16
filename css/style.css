@@ -429,9 +429,19 @@ body {
   flex-wrap: wrap;
 }
 
-.footer__nav-log {
-  margin-right: 40px;
+.footer__social-list {
+  display: flex;
+  gap: 20px;
 }
+
+.footer__logo{
+margin-right: 41px;
+}
+
+ .footer__nav-contacts {
+  margin-left: 37px;
+}
+
 
 .footer__nav-phone,
 .footer__nav-email {
